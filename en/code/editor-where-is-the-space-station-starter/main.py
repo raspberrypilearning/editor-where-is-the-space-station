@@ -9,8 +9,8 @@ print(data)
 
 latitude = data['latitude']
 longitude = data['longitude']
-
-print(f"Latitude:{latitude}, Longitude:{longitude}")
+print(latitude)
+print(longitude)
 
 screen = turtle.Screen()
 screen.setup(720, 360)
