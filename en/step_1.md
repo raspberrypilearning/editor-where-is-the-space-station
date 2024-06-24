@@ -1,9 +1,11 @@
-<h2 class="c-project-heading--task">Get data from an API</h2>
+<h2 class="c-project-heading--task">Get data about the ISS</h2>
 --- task ---
-➡️ Run the starter code to see the data.
+➡️ Run the starter code to see current data about the ISS.
 --- /task --- 
 
-A web service has an address (URL) just like a website does. Instead of returning HTML for a web page, it returns data.
+The International Space Station (ISS) is in orbit around Earth. It completes an orbit of the earth roughly every hour and a half, and travels at an average speed of 7.66 km per second. It’s fast!
+
+Live data about the location of the ISS is published, and you can access the data via a web address, just like you would for a website.
 
 **Test:** Run the starter code and you should see some data about  the International Space Station:
 

@@ -1,23 +1,33 @@
-## Step title
-
-Add an introductory sentence. What will learners achieve by the end of this step?
-
+<h2 class="c-project-heading--task">Store latitude and longitude</h2>
 --- task ---
+➡️ Store the current latitude and longitude of the ISS.
+--- /task --- 
 
-If working **online**, open the [starter project](https://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
- 
-If working **offline**, open the project [starter file](https://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+Latitude and longitude are used to give coordinates to locations on the Earth’s surface.
 
-You should see...
- 
-![starter project](images/starter_project.png)
+Create two variables and use them to store the **latitude** and **longitude** from the data you have just received. 
 
---- /task ---
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 10
+---
 
---- task ---
+latitude = data['latitude']
+longitude = data['longitude']
+print(f"Latitude:{latitude}, Longitude:{longitude}")
 
-Step content...
+--- /code ---
+</div>
 
---- /task ---
+**Test:** Run your code and you should see the values of latitude and longitude printed.
 
---- save ---
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+You can delete the line `print(data)` if you like.
+</div>
+
+
