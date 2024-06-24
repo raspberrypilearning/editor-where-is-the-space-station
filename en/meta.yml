@@ -1,10 +1,10 @@
-title: default-project-template
+title: Where is the space station?
 hero_image: images/banner.png
-description: default-project-template description
-version: 4
+description: Plot the location of the international space station
+version: 41
 listed: false
 copyedit: false
-last_tested: "2022-05-19"
+last_tested: "2024-06-24"
 steps:
   - title: Introduction
   - title: Step title
