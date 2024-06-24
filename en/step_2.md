@@ -7,7 +7,7 @@ Latitude and longitude are used to give coordinates to locations on the Earth’
 
 Create two variables and use them to store the **latitude** and **longitude** from the data you have just received. 
 
-![Diagram showing the latitude and longitude of the Earth](images/Latitude_and_Longitude_of_the_Earth.svg)
+![Diagram showing the latitude and longitude of the Earth](images/Latitude_and_Longitude_of_the_Earth.png)
 
 <div class="c-project-code">
 --- code ---
